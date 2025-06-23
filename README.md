@@ -16,7 +16,8 @@ This is a standard Android project with the following key components:
 
 - Displays "Hello World" text centered on the screen
 - Uses Material Design components
-- Compatible with Android API 21+ (Android 5.0 Lollipop and above)
+- Compatible with Android API 26+ (Android 8.0 Oreo and above)
+- Targets Android 14 (API 34) for latest features and security
 - Written in Kotlin
 
 ## Building the App
@@ -49,6 +50,9 @@ To build this Android app, you need:
 ## App Details
 
 - **Package Name**: com.example.helloworld
-- **Min SDK**: 21 (Android 5.0)
-- **Target SDK**: 28 (Android 9.0)
+- **Min SDK**: 26 (Android 8.0)
+- **Target SDK**: 34 (Android 14)
+- **Compile SDK**: 34 (Android 14)
 - **Language**: Kotlin
+- **Android Gradle Plugin**: 8.1.2
+- **Kotlin Version**: 1.9.10
